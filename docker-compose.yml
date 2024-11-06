@@ -1,0 +1,11 @@
+services:
+  db:
+    image: mysql:8.1.0
+    hostname: "mysql"
+    ports:
+      - "3309:3306"
+    environment:
+      MYSQL_DATABASE: pttk
+      MYSQL_USER: dbuser
+      MYSQL_PASSWORD: dbpass
+      MYSQL_ROOT_PASSWORD: rootpass

@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3309/pttk?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
+    username: dbuser
+    password: dbpass
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
